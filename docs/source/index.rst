@@ -10,6 +10,7 @@ Welcome to the Vaccine Python Client Workshop!
    :maxdepth: 2
    :caption: Contents:
 
+   introduction
 
 
 Indices and tables

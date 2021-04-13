@@ -14,18 +14,17 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 sys.path.insert(0, os.path.abspath('..'))
-import _version
 import datetime
 
 
 # -- Project information -----------------------------------------------------
 
-project = _version.__lib_name__
-copyright = f'2020-{datetime.date.today().year}, {_version.__author__}'
-author = _version.__author__
+project = 'Vaccine Python Client Workshop'
+copyright = f'2020-Jacob Nilsson'
+author = 'Jacob Nilsson'
 
 # The full version, including alpha/beta/rc tags
-release = _version.__version__
+release = '1.0.0'
 version = release
 
 
