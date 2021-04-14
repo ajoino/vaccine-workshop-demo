@@ -11,6 +11,7 @@ Welcome to the Vaccine Python Client Workshop!
    :caption: Contents:
 
    introduction
+   provider
 
 
 Indices and tables
