@@ -1,0 +1,26 @@
+Bag Attributes
+    friendlyName: provider.vaccine.ltu.arrowhead.eu
+    localKeyID: 54 69 6D 65 20 31 36 31 38 33 32 33 32 33 38 31 38 32 
+subject=CN = provider.vaccine.ltu.arrowhead.eu
+
+issuer=CN = vaccine.ltu.arrowhead.eu
+
+-----BEGIN CERTIFICATE-----
+MIIDIDCCAgigAwIBAgIEHWdK7TANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDExh2
+YWNjaW5lLmx0dS5hcnJvd2hlYWQuZXUwHhcNMjEwNDEzMTQxMzU3WhcNMzEwNDEx
+MTQxMzU3WjAsMSowKAYDVQQDEyFwcm92aWRlci52YWNjaW5lLmx0dS5hcnJvd2hl
+YWQuZXUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCSR5zQo4jlxplo
+jBOFHBLVh/4gD6d/T8Z/8uT4RGw08avoLuQBPHnvKibxb3d+zLI+dq89KhaZtQSb
+Gw3S3SMhvvxvLtekIALicCpgvK9g7l1v2bj+N9eb+nFOKYwu78IoPxr+V6Bzq/Xl
+hpcvkN092Ql/WPqCPCNGqk6RCr7QF330w6QkDjw5NCouwDl0UAf6ShaRmZCRH4WX
+DLjNXI70xjmcoPdmoEBM/5eNAXxxh7gMzT35mkRqnr6VUGyjvA9amMlJdgDoBOaf
+2DtEvPvLgBE9hsT2KlY8x+bFsmz6DcaIHTc0kybvB+YoHIK2DL8YrcOBJ4QmyfAi
+0Enq+2TdAgMBAAGjUzBRMB0GA1UdDgQWBBSUIzf0ytDpZnISCkMz+off6rHyJTAP
+BgNVHREECDAGhwR/AAABMB8GA1UdIwQYMBaAFHVz71BVGXTKvTpwD8g1fZc0pmDS
+MA0GCSqGSIb3DQEBCwUAA4IBAQB4YBAL2WTZlfjvge0xvgIs0CKfeYNHpUOpCwBu
+X/f1+tV0RfK/+QZNoDVBkkC191/kUzjpHpnv4X+PLGbkE6scECOyxktOnbyLacag
+pcn7kevqO3naG6TxJ2Ep6qW3GCijJEdKMqaNoOS/ppEcSSfyUypBbcIiFkKNMmdN
+W4svXv3R6BvtkzsumbFmbUEa5knzoVYNrLF2GbCzw4wZ1yJU8G1GxnMtKn7Sdcnb
+2rough3baV4i/mtsV7PL4sRKb4prl7sidA3KH1R/lMKMvhiGfWyAppklfGTn4YuC
+Z7WCG9f/bnwnQ3H7MGkSd/gioBrwLBLawIxNZXYnjl7W5K9X
+-----END CERTIFICATE-----
