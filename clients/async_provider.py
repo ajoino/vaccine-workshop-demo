@@ -8,12 +8,12 @@ from pydantic import BaseModel
 from arrowhead_client.client.implementations import AsyncClient
 
 provider = AsyncClient.create(
-        system_name='vaccine-provider',
+        system_name='provider',
         address='127.0.0.1',
         port=7000,
         keyfile='../certificates/crypto/provider.key',
-        certfile='../certificates/crypto/provider.pub',
-        cafile='certificates/crypto/sysop.ca',
+        certfile='../certificates/crypto/provider.crt',
+        cafile='../certificates/crypto/sysop.ca',
 )
 
 class SentenceModel(BaseModel):
@@ -44,3 +44,6 @@ async def echo_all(websocket: WebSocket):
         data = await websocket.receive_text()
         all_data.append(data)
         await websocket.send_text('\n'.join(all_data))
+
+if __name__ == '__main__':
+    provider.run_forever()

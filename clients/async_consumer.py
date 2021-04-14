@@ -7,17 +7,17 @@ import asyncio
 from arrowhead_client.client.implementations import AsyncClient
 
 consumer = AsyncClient.create(
-        system_name='vaccine-consumer',
+        system_name='consumer',
         address='127.0.0.1',
         port=7001,
         keyfile='../certificates/crypto/consumer.key',
-        certfile='../certificates/crypto/consumer.pub',
-        cafile='certificates/crypto/sysop.ca',
+        certfile='../certificates/crypto/consumer.crt',
+        cafile='../certificates/crypto/sysop.ca',
 )
 
 async def main(consumer: AsyncClient):
     async with consumer:
-        await consumer.add_orchestration_rule('all_caps', 'GET')
+        await consumer.add_orchestration_rule('all_caps', 'POST')
         await consumer.add_orchestration_rule('echo_all', '*')
 
         caps = await consumer.consume_service('all_caps', json={'sentence': "We're going async now!"})
